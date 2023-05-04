@@ -1,0 +1,14 @@
+{
+  "resourceName": "micahlevason",
+  "policyUUID": "58c2a809",
+  "bucketName": "micahlevason540a16911e1044da8705548471e8cb54",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

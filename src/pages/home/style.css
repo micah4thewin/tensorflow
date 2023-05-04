@@ -1,0 +1,72 @@
+html, body {
+  overflow-x: hidden;
+  height: auto;
+}
+
+
+.navbar {
+  z-index: 1000;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.neumorphic {
+  box-shadow:  9px 9px 8px #dadbdc,
+             -9px -9px 8px #ffffff;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.chat-container {
+    height: calc(60vh - 60px);
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.fixed-bottom-input {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: white;
+    z-index: 10;
+}
+
+.question {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.answer {
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    overflow-y: auto;
+    transition: left 0.3s;
+  }
+  .sidebar-open {
+    left: 0;
+  }
+}

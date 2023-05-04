@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-micahlevason-dev-91602-authRole",
+      "UnauthRoleArn": "arn:aws:iam::868699259828:role/amplify-micahlevason-dev-91602-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::868699259828:role/amplify-micahlevason-dev-91602-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-micahlevason-dev-91602-deployment",
+      "UnauthRoleName": "amplify-micahlevason-dev-91602-unauthRole",
+      "StackName": "amplify-micahlevason-dev-91602",
+      "StackId": "arn:aws:cloudformation:us-west-2:868699259828:stack/amplify-micahlevason-dev-91602/a5439010-83ae-11ed-8acf-023cd1152435",
+      "AmplifyAppId": "drujk9jjojyf8"
+    },
+    "categories": {
+      "auth": {
+        "micahlevasonad15c7c9": {}
+      },
+      "storage": {
+        "micahlevason": {}
+      }
+    }
+  }
+}

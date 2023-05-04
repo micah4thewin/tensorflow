@@ -1,0 +1,23 @@
+html, body {
+  overflow-x: hidden;
+  height: auto;
+}
+
+
+.navbar {
+  z-index: 1000;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.neumorphic {
+  box-shadow:  9px 9px 8px #dadbdc,
+             -9px -9px 8px #ffffff;
+}

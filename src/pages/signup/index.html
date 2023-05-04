@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YOUR_TITLE_HERE</title>
+  <meta name="description" content="YOUR_DESCRIPTION_HERE">
+  <meta name="keywords" content="YOUR_KEYWORDS_HERE">
+  <meta property="og:title" content="YOUR_OG_TITLE_HERE">
+  <meta property="og:description" content="YOUR_OG_DESCRIPTION_HERE">
+  <!--
+  <meta property="og:image" content="YOUR_OG_IMAGE_URL_HERE">
+  <meta property="og:url" content="YOUR_OG_URL_HERE">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="YOUR_TWITTER_TITLE_HERE">
+  <meta name="twitter:description" content="YOUR_TWITTER_DESCRIPTION_HERE">
+  <meta name="twitter:image" content="YOUR_TWITTER_IMAGE_URL_HERE">
+  <link rel="canonical" href="YOUR_CANONICAL_URL" />
+  -->
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "REPLACE_WITH_YOUR_WEBPAGE_TITLE",
+      "description": "REPLACE_WITH_YOUR_WEBPAGE_DESCRIPTION",
+      "url": "REPLACE_WITH_YOUR_WEBPAGE_URL"
+    }
+  </script>
+  <meta name="robots" content="index, follow" />
+</head>
+<body>
+  <!-- Main Content -->
+  <section id="auth-signup">
+      <div class="d-flex justify-content-center min-vh-100" data-aos="zoom-in" data-aos-duration="800">
+          <div class="align-self-center">
+              <div class="card shadow p-4 rounded">
+                  <div class="card-body">
+                      <h2 class="card-title mb-4" itemprop="headline">Sign up</h2>
+                      <form id="form-auth-signup" itemprop="potentialAction" itemscope itemtype="https://schema.org/RegisterAction">
+                          <div class="mb-3" itemprop="target" itemscope itemtype="https://schema.org/EntryPoint">
+                              <label for="formSignUpEmail" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="formSignUpEmail" aria-describedby="emailHelp" aria-label="Email address" itemprop="urlTemplate">
+                          </div>
+                          <div class="mb-3">
+                              <label for="formSignUpPassword" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="formSignUpPassword" aria-label="Password">
+                          </div>
+                          <button id="btnSignUp" type="submit" class="btn btn-primary w-100" aria-label="Sign up">Sign up</button>
+                      </form>
+                      <p class="mt-3 text-center">
+                          <small>
+                              Already have an account?
+                              <a class="text-decoration-none" href="./login.html" aria-label="Sign in">Sign in</a>
+                          </small>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+</body>
+</html>
