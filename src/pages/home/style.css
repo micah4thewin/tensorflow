@@ -1,27 +1,3 @@
-html, body {
-  overflow-x: hidden;
-  height: auto;
-}
-
-
-.navbar {
-  z-index: 1000;
-}
-
-.navbar-toggler,
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    outline: none;
-    border: none;
-    box-shadow: none;
-}
-
-.neumorphic {
-  box-shadow:  9px 9px 8px #dadbdc,
-             -9px -9px 8px #ffffff;
-}
-
 .sidebar::-webkit-scrollbar {
   display: none;
 }
@@ -56,17 +32,78 @@ html, body {
   margin-bottom: 10px;
 }
 
-@media (max-width: 767px) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: -250px;
-    width: 250px;
-    height: 100%;
-    overflow-y: auto;
-    transition: left 0.3s;
-  }
-  .sidebar-open {
-    left: 0;
-  }
+/* Remove focus highlight around input */
+#question:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Remove border around hamburger menu */
+#toggle-sidebar {
+  border: none;
+  background-color: transparent;
+}
+
+/* Optional: add hover effect for hamburger menu */
+#toggle-sidebar:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Set card width and height */
+.card {
+  height: auto;
+  width: 100%;
+}
+
+/* Style the context input box */
+#context {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0;
+  resize: none;
+}
+
+/* Style the new chats in the sidebar */
+.chat-item {
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  color: #495057;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.2s;
+}
+
+.chat-item:hover {
+  background-color: #e9ecef;
+}
+
+#context {
+  font-size: 12px; /* Adjust the value according to your preference */
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+}
+
+.question,
+.answer {
+  max-width: 70%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.question {
+  align-self: flex-start;
+  background-color: #f1f1f1; /* Adjust the color according to your preference */
+}
+
+.answer {
+  align-self: flex-end;
+  background-color: #333; /* Adjust the color according to your preference */
+  color: #ffffff; /* Adjust the color according to your preference */
 }

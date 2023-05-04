@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "@tensorflow-models/qna": "^1.0.1",
+    "@tensorflow/tfjs": "^4.4.0",
     "aos": "^2.3.4",
     "aws-amplify": "^5.0.20",
     "bootstrap": "^5.2.3",
